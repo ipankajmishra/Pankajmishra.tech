@@ -16,14 +16,28 @@ export class App extends Component {
         iframe.src =  iframe.src;
       }
     }
+
+    reloadIFrameMob=()=> {
+      var iframe = document.getElementById("iFrame-mob");
+        // console.log(iframe.contentDocument.URL); //work control
+        if(iframe.contentDocument.URL == "about:blank"){
+          iframe.src =  iframe.src;
+        }
+      }
    
     componentDidMount(){
-      $(document).ready(()=> {
-        $('#menuiFrame').on('load', () => {
+      $( document ).ready(()=> {
+        $('#iFrame').on('load', () => {
             clearInterval(setInterval(()=>this.reloadIFrame(), 1000));
             console.log("Finally Loaded"); //work control
         });
     });
+    $( document ).ready(()=> {
+      $('#iFrame-mob').on('load', () => {
+          clearInterval(setInterval(()=>this.reloadIFrameMob(), 1000));
+          console.log("Finally Loaded"); //work control
+      });
+  });
 
     }
     
@@ -45,7 +59,7 @@ export class App extends Component {
           
         </div>
         <div className="main-div-mob" style={{"width":"100%", "margin":0}}>
-        <iframe id="iFrame" src="https://docs.google.com/gview?url=https://github.com/ipankajmishra/resume/raw/master/Pankaj_Mishra_Resume_.pdf&embedded=true" style={{"width":"100%", height:"100%"}} frameborder="0"></iframe>
+        <iframe id="iFrame-mob" src="https://docs.google.com/gview?url=https://github.com/ipankajmishra/resume/raw/master/Pankaj_Mishra_Resume_.pdf&embedded=true" style={{"width":"100%", height:"100%"}} frameborder="0"></iframe>
         
       </div>
       </div>
