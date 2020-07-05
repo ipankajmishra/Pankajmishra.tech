@@ -20,7 +20,7 @@ export class App extends Component {
     componentDidMount(){
       $(document).ready(()=> {
         $('#menuiFrame').on('load', () => {
-            clearInterval(setInterval("reloadIFrame();", 1000));
+            clearInterval(setInterval(()=>this.reloadIFrame(), 1000));
             console.log("Finally Loaded"); //work control
         });
     });
