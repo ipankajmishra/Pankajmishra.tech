@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.left-pane{
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.right-pane{
+  min-height: 100vh;
+  /* background-color: ; */
+  /* overflow: hidden; */
+}
+
+.main-div{
+  overflow: hidden;
+}
+
+.ndfHFb-c4YZDc-cYSp0e, .ndfHFb-c4YZDc-cYSp0e-s2gQvd {
+  background-color: blue !important;
+}
+
+.main-div-mob{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .main-div{
+    display: none;
+  }
+  .main-div-mob{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+  }
+}

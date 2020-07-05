@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.image-card{
+    padding: 10px;
+    /* margin: 40px; */
+    /* height: 240px;*/
+    margin-top: 50px; 
+    /* width: 240px; */
+    border-radius: 50% !important;
+}
+
+.image-src{
+    /* height: 200px;
+    width: 200px; */
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+}
+
+.awesome-name{
+    /* font-family: 'Modak', cursive; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+    text-align: center;
+    color: white
+}
+
+.center-div {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+  }
+
+  .awesome-name-eng{
+      font-size: 20px;
+      margin-left: 30px;
+      color: lavender;
+  }
+
+  .social{
+      margin-top: 30px;
+      /* margin-left: 20px; */
+  }
+
+  .download-resume{
+      margin-top: 30px;
+     margin-left: 36px;
+     text-transform: capitalize;
+  }
+
+  .down-res-font{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: bolder; 
+  }
