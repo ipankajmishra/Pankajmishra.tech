@@ -20,7 +20,7 @@
 .awesome-name{
     /* font-family: 'Modak', cursive; */
     font-family: 'Poppins', sans-serif;
-    font-size: 39px;
+    font-size: 30px;
     text-align: center;
     color: white
 }
@@ -34,7 +34,7 @@
 
   .awesome-name-eng{
       font-size: 20px;
-      margin-left: 30px;
+      margin-left: 10px;
       color: lavender;
   }
 

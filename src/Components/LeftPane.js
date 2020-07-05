@@ -25,8 +25,9 @@ export class LeftPane extends Component {
                     </MDBCol>
                 </MDBRow>
                 <div className="center-div">
-                    <span className="awesome-name">पंकज मिश्रा</span><br></br>
-                    <span className="awesome-name-eng">Pankaj Mishra</span>
+                    {/* <span className="awesome-name">पंकज मिश्रा</span><br></br> */}
+                    <span className="awesome-name">Pankaj Mishra</span><br></br>
+                    <span className="awesome-name-eng">Software Developer</span>
                     <div className="social">
                         <a href="mailto:pankaj.mishra2902@gmail.com"><img src="https://img.icons8.com/doodle/48/000000/email.png"/></a>
                         <a href="https://github.com/ipankajmishra" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/github.png"/></a>
