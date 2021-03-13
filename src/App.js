@@ -52,14 +52,14 @@ export class App extends Component {
                   <LeftPane/>
               </MDBCol>
               <MDBCol style={{paddingLeft:"0"}} className="right-pane" size="8">
-              <iframe id="iFrame" src="https://docs.google.com/gview?url=https://github.com/ipankajmishra/resume/raw/master/Pankaj_Mishra_Resume.pdf&embedded=true" style={{"width":"100%", height:"100%"}} frameborder="0"></iframe>
+              <iframe id="iFrame" src="https://docs.google.com/gview?url=https://github.com/ipankajmishra/resume/raw/master/Pankaj's Resume.pdf&embedded=true" style={{"width":"100%", height:"100%"}} frameborder="0"></iframe>
               </MDBCol>
 
           </MDBRow>
           
         </div>
         <div className="main-div-mob" style={{"width":"100%", "margin":0}}>
-        <iframe id="iFrame-mob" src="https://docs.google.com/gview?url=https://github.com/ipankajmishra/resume/raw/master/Pankaj_Mishra_Resume.pdf&embedded=true" style={{"width":"100%", height:"100%", padding:"0"}} frameborder="0"></iframe>
+        <iframe id="iFrame-mob" src="https://docs.google.com/gview?url=https://github.com/ipankajmishra/resume/raw/master/Pankaj's Resume.pdf&embedded=true" style={{"width":"100%", height:"100%", padding:"0"}} frameborder="0"></iframe>
         
       </div>
       </div>
