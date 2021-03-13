@@ -36,7 +36,7 @@ export class LeftPane extends Component {
                        
                     </div>
                     <div className="download-resume">
-                         <a href="https://github.com/ipankajmishra/resume/raw/master/Pankaj_Mishra_Resume.pdf">
+                         <a href="https://github.com/ipankajmishra/resume/raw/master/Pankaj's Resume.pdf">
 
                          <MDBBtn style={{padding: 10,"text-transform": "capitalize"}} gradient="blue"><span className="down-res-font" style={{fontSize:"18px",color:"black", fontWeight:"bold"}}>Resume</span>
                          <span>
